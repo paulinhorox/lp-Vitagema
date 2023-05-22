@@ -1,4 +1,4 @@
-<h1 align="center">Landing Page Vitatema</h1>
+<h1 align="center">Landing Page Vitagema</h1>
 
 # Sobre
 
