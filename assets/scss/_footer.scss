@@ -1,0 +1,91 @@
+#footer {
+    .container {
+        height: 45.6rem;
+        margin-top: -2rem;
+        background-color: #F5DBBA;
+        @include flex(column, center, center);
+        position: relative;
+
+        .info-footer {
+            width: 100%;
+            max-width: 116.9rem;
+            height: 18.5rem;
+            @include flex(row, center, space-between);
+
+            .area-text {
+                @include flex(column, flex-start, space-between);
+                width: 100%;
+                max-width: 70rem;
+
+                .info {
+                    @include flex(row, flex-start, flex-start);
+                    gap: 6.2rem;
+                    width: 100%;
+                    h4 {
+                        color: $green;
+                    }
+
+                    .txt {
+                        margin-bottom: 3.4rem;
+                        p {
+                            color: $black;
+                        }
+                        a {
+                            color: $black;
+                            display: block
+                        }
+
+                        &.vitagema {
+                            width: 100%;
+                            max-width: 42.3rem;
+                        }
+                    }
+                    .contact {
+                        width: 100%;
+                        max-width: 42.3rem;
+
+                        p {
+                            &.subtitle-pages {
+                                @include flex(row, center, flex-start);
+                            }
+
+                            img {
+                                margin-right: .8rem;
+                            }
+                        }
+                    }
+                }
+
+                
+            }
+
+        }
+
+        .social {
+            height: 7.2rem;
+            background-color: $green;
+            width: 100%;
+            @include flex(row, center, space-evenly);
+            position: absolute;
+            bottom: 0;
+
+            .icons {
+                @include flex(row, center, center);
+                gap: .8rem;
+
+                .icon {
+                    @include flex(row, center, center);
+                    background-color: $white;
+                    border-radius: 50%;
+                    width: 4rem;
+                    height: 4rem;
+                    
+                }
+            }
+
+            .paragraph {
+                color: $white;
+            }
+        }
+    }
+}

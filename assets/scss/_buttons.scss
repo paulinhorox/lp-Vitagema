@@ -1,0 +1,53 @@
+.btn-primary-large, .btn-secondary-large, .btn-light-large {
+    display: inline-block;
+    width: 24.3rem;
+    line-height: 4rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-align: center;
+    transition: all .3s;
+    border-radius: .8rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.btn-primary-medium, .btn-secondary-medium, .btn-light-medium {
+
+    display: inline-block;
+    width: 20rem;
+    line-height: 4rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.6rem;
+    text-align: center;
+    transition: all .3s;
+    border-radius: .8rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+
+}
+
+.btn-primary-large, .btn-primary-medium {
+    background-color: $green;
+    color: $white;
+
+    &:hover {
+        background-color: #33bd65;
+    }
+
+}
+
+.btn-secondary-large, .btn-secondary-medium {
+    background-color: $orange;
+    color: $white;
+
+    &:hover {
+        background-color: #ffa332;
+    }
+}
+
+.btn-light-large, .btn-light-medium {
+    background-color: $white;
+    color: $orange
+}
+
+

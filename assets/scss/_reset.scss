@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+html {
+    font-size: 62.5%;
+
+}
+
+body {
+    background-color: $sand;
+    scroll-behavior: smooth;
+    ::-webkit-scrollbar {
+        width: 1rem;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: #F5DBBA;
+        border-radius: 8px;
+        background-clip: padding-box;  
+    }
+}
+
+button {
+    background-color: transparent;
+    cursor: pointer;
+}
+
+a {
+    cursor: pointer;
+}
+
